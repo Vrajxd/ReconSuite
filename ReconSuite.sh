@@ -87,6 +87,7 @@ run_all() {
 setup_dirs
 
 while true; do
+    figlet "8bit.XD"
     show_menu
     read -p "Choose an option: " opt
     case $opt in
