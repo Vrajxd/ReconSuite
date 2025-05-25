@@ -6,13 +6,13 @@ A modular, automated reconnaissance toolkit for domain and subdomain enumeration
 
 ## Features
 
-- Subdomain enumeration using tools like `subfinder` and `assetfinder`
-- Alive subdomain detection with `httpx`
-- Screenshot capturing of alive hosts via `gowitness`
-- Port scanning using `nmap`
-- Vulnerability scanning with `nuclei`
-- DNS information gathering through `dnsrecon`
-- Directory brute forcing with `ffuf`
+- Subdomain enumeration
+- Alive subdomain detection
+- Screenshot capturing of alive hosts
+- Port scanning 
+- Vulnerability scanning
+- DNS information gathering
+- Directory brute forcing
 - Modular design with interactive menu or full automation
 
 ---
@@ -40,3 +40,5 @@ Make sure the following dependencies are installed and available in your system 
 - cd ReconSuite
 - chmod 777 reconsuite.sh
 - ./reconsuite.sh example.com
+
+- All output will be stored inside a folder named after the domain name , created within the ReconSuite directory.
