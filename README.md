@@ -38,4 +38,5 @@ Make sure the following dependencies are installed and available in your system 
 - sudo apt update && sudo apt upgrade
 - git clone https://github.com/Vrajxd/ReconSuite
 - cd ReconSuite
+- chmod 777 reconsuite.sh
 - ./reconsuite.sh example.com
